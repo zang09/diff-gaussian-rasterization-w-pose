@@ -1,3 +1,22 @@
+Differential Gaussian Rasterization with Camera Pose Jacobians
+===========================================================
+
+This submodule is based on rmurai0610/diff-gaussian-rasterization-w-pose
+(https://github.com/rmurai0610/diff-gaussian-rasterization-w-pose). It extends
+the original differential Gaussian rasterizer used in Gaussian-Splatting with
+camera pose Jacobians and depth gradients.
+
+Modifications Copyright 2026 (C) Habeom Jung, Namtae Kim, Jungwoo Kim,
+Jaesik Park (Seoul National University). TLC-Calib modifications include
+adaptations for targetless LiDAR-camera calibration and integration with the
+TLC-Calib training/rendering pipeline.
+
+This submodule remains subject to the Gaussian-Splatting License below and to
+all upstream copyright and attribution notices from the original
+Gaussian-Splatting rasterizer and diff-gaussian-rasterization-w-pose. Commercial
+use requires prior permission from the relevant licensors.
+
+
 Gaussian-Splatting License  
 ===========================  
 
